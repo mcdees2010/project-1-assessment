@@ -10,7 +10,7 @@ addbtn.addEventListener('click', function(){
     num += parseInt(addNum.value);
     console.log(currentNum.innerHTML = num);
     input.value = " ";
-})
+});
 
 minusbtn.addEventListener('click', function(){
     num -= parseInt(addNum.value);
